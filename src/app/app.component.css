@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+  .app-container-grid {
+    display: grid;
+    /* grid-template-columns: 1fr 6fr 2fr; */
+    grid-template-rows: 1fr 7fr 1fr;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /* .main-footer {
+    background-color: #050429;
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #fefefe;
+
+  } */
+
+
+  .main-container-grid {
+    /* align-self:center;
+    justify-self: center; */
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+
+  }
+
+  /* .align-center {
+    margin: 15px;
+    border: 1px solid crimson;
+  } */
+
+  .box {
+    background-color: crimson;
+    color: #fefefe;
+    text-align:center;
+    font-weight: 700;
+  }
+.middle {
+background-color: #fefefe;
+    color: crimson;
+    text-align:center;
+    font-weight: 700;
+}
+  body input[type=button]
+          {
+      font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+              background-color: #050429;
+              border: none;
+              color: #fefefe;
+              padding: 8px 16px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              cursor: pointer;
+    }
+    
+          body input[type=button]:hover
+          {
+      background-color:#151353;
+      box-shadow: 0px 0px 10px 0px #302b96
+    }	
+    
+    body input[type=button]:active
+          {
+      background-color:#04031b;
+
+    }	
+    
+    body input[type=button]:focus
+          {
+      background-color:#04031b;
+      outline: 0;
+          }	

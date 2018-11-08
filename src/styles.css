@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FEFEFE;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .align-center {
+    margin: 15px;
+    border: 1px solid crimson;
+  }
+
+  .box {
+    background-color: crimson;
+    color: #fefefe;
+    text-align:center;
+    font-weight: 700;
+  }
+
+.middle {
+background-color: #fefefe;
+    color: crimson;
+    text-align:center;
+    font-weight: 700;
+}

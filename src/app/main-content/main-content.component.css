@@ -1,0 +1,25 @@
+.main-container-grid {
+    /* align-self:center;
+    justify-self: center; */
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    height: 100%;
+  }
+
+.table-one {
+  width: 100%;
+  border: 1px;
+  border-style: dashed;
+  border-color: crimson;
+}
+.table-one > tbody > tr > td {
+  border: 1px solid #050429;
+  min-height: 50px;
+  padding: 0.5em;
+
+}
+
+.add-button {
+      font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
