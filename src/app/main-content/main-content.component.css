@@ -9,8 +9,8 @@
 .table-one {
   width: 100%;
   border: 1px;
-  border-style: dashed;
-  border-color: crimson;
+  /* border-style: dashed; */
+  border-color: #CC3A3A;
 }
 .table-one > tbody > tr > td {
   border: 1px solid #050429;
@@ -22,4 +22,17 @@
 .add-button {
       font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    float: right;
+    margin: 10px;
+}
+
+.remove-button {
+  font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+/* float: right;
+margin: 10px; */
+}
+
+.new-form {
+  background-color: crimson;
 }
