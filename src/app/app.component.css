@@ -33,19 +33,19 @@
     border: 1px solid crimson;
   } */
 
-  .box {
+  /* .box {
     background-color: crimson;
     color: #fefefe;
     text-align:center;
     font-weight: 700;
-  }
-.middle {
+  } */
+/* .middle {
 background-color: #fefefe;
     color: crimson;
     text-align:center;
     font-weight: 700;
-}
-  body input[type=button]
+/* } 
+  /* body input[type=button]
           {
       font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -75,4 +75,4 @@ background-color: #fefefe;
           {
       background-color:#04031b;
       outline: 0;
-          }	
+          }	  */

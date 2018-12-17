@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
 
   selector: 'app-main-header',
@@ -11,20 +11,25 @@ export class MainHeaderComponent implements OnInit {
   private firstName: string;
   private lastName: string;
 
-   constructor() {
-     this.firstName = 'Leah';
-     this.lastName = 'Vicente';
-   }
+  constructor(private router: Router) {
+    this.firstName = 'Leah';
+    this.lastName = 'Vicente';
+  }
 
-   showGreeting() {
-       const banner = document.getElementById('banner');
-       banner.innerHTML = 'Hello' + ' ' + this.firstName + ' ' + this.lastName + '.';
-   }
+  gotoPage(path: string) {
+    console.log('from go to page path: ', path);
+    this.router.navigate([path]);
+  }
 
-   hideGreeting() {
-       const banner = document.getElementById('banner');
-       banner.innerHTML = 'r1c2';
-   }
+  showGreeting() {
+    const banner = document.getElementById('banner');
+    banner.innerHTML = 'Hello' + ' ' + this.firstName + ' ' + this.lastName + '.';
+  }
+
+  hideGreeting() {
+    const banner = document.getElementById('banner');
+    banner.innerHTML = 'r1c2';
+  }
 
   ngOnInit() {
   }

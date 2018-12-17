@@ -1,5 +1,5 @@
 .main-footer {
-    background-color: #050429;
+    /* background-color: #050429; */
     display: grid;
     grid-template-columns: 1fr 6fr 2fr;
     font-family: 'Open Sans', sans-serif;

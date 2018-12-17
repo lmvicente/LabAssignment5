@@ -12,7 +12,7 @@
   /* border-style: dashed; */
   border-color: #CC3A3A;
 }
-.table-one > tbody > tr > td {
+.table-one > tbody > tr > td, .table-one > thead > tr > td  {
   border: 1px solid #050429;
   min-height: 50px;
   padding: 0.5em;
